@@ -58,7 +58,7 @@
         &-content {
             display: flex;
             max-width: 1140px;
-            background-image: url(img/headerbgi.png);
+            background-image: url(../img/headerbgi.png);
             background-repeat: no-repeat;
             background-position: bottom left -65%;
             margin: 0 auto;
@@ -144,7 +144,7 @@
     &-accesories {
         display: flex;
         width: 100%;
-        background-image: url(img/accesories.svg);
+        background-image: url(../img/accesories.svg);
         background-repeat: no-repeat;
         min-height: 180px;
         margin-top: 30px;
@@ -152,7 +152,7 @@
 
     &-for-women {
         display: flex;
-        background-image: url(img/woman.svg);
+        background-image: url(../img/woman.svg);
         min-height: 260px;
         min-width: 360px;
         background-repeat: no-repeat;
@@ -160,7 +160,7 @@
 
     &-for-men {
         display: flex;
-        background-image: url(img/men.svg);
+        background-image: url(../img/men.svg);
         min-height: 260px;
         min-width: 360px;
         background-repeat: no-repeat;
@@ -168,7 +168,7 @@
 
     &-for-kids {
         display: flex;
-        background-image: url(img/kids.svg);
+        background-image: url(../img/kids.svg);
         min-height: 260px;
         min-width: 360px;
         background-repeat: no-repeat;
@@ -233,6 +233,58 @@
             &-item-all {
                 max-width: 360px;
                 margin-top: 30px;
+                position: relative;
+
+                &:hover .catalog-product-list-item-all-foto {
+                        filter: brightness(50%);
+                    
+                }
+
+                &:hover .catalog-product-list-item-all-btn {
+                    display: flex;
+
+                    &:hover {
+                        background-color: #ccc;
+                        color:  #000;
+                        border: 1px solid #000;
+
+                        & svg {
+                            fill: #000;
+                        }
+                    }
+
+                    &:active {
+                        background-color: transparent;
+                        color: #fff;
+                        border: 1px solid #fff;
+
+                        & svg {
+                            fill: #fff;
+                        }
+                    }
+                }
+
+                &-btn {
+                    display: none;
+                    justify-content: center;
+                    align-items: center;
+                    min-height: 43px;
+                    width: 138px;
+                    border: 1px solid #FFFFFF;
+                    background: transparent;
+                    text-align: center;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #FFFFFF;
+                    position: absolute;
+                    top: 188px;
+                    left: 111px;
+
+                        & svg {
+                        fill: #FFFFFF;
+                        margin: 0 11px 0 0;
+                    }
+                }
 
                 &-text {
                     padding: 0 18px 0 29px;
@@ -278,6 +330,12 @@
         border: 1px solid #FF6A6A;
         padding: 14px 39px 13px;
         margin: 49px auto 96px;
+        background: #E5E5E5;
+        &:hover {
+            background: #F16D7F;
+            border: 1px solid #FF6A6A;
+            color: #FFFFFF;
+        }
     }
 }
 
@@ -300,7 +358,7 @@
     &-item-01 {
         width: 360px;
         height: 134px;
-        background-image: url(img/benefits-01.svg);
+        background-image: url(../img/benefits-01.svg);
         background-position: center top;
         background-repeat: no-repeat;
 
@@ -309,7 +367,7 @@
     &-item-02 {
         width: 360px;
         height: 134px;
-        background-image: url(img/benefits-02.svg);
+        background-image: url(../img/benefits-02.svg);
         background-position: center top;
         background-repeat: no-repeat;
     }
@@ -317,7 +375,7 @@
     &-item-03 {
         width: 360px;
         height: 134px;
-        background-image: url(img/benefits-03.svg);
+        background-image: url(../img/benefits-03.svg);
         background-position: center top;
         background-repeat: no-repeat;
     }
@@ -347,7 +405,7 @@
     max-width: 1600px;
     margin: 0 auto;
     min-height: 527px;
-    background-image: url(img/BGFooter.svg);
+    background-image: url(../img/BGFooter.svg);
     background-repeat: no-repeat;
     background-position: top center;
 
@@ -371,7 +429,7 @@
                 width: 96px;
                 height: 96px;
                 border-radius: 50%;
-                background-image: url(img/avatar.svg);
+                background-image: url(../img/avatar.svg);
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: 0 0;
@@ -461,6 +519,19 @@
             list-style-type: none;
             min-width: 148px;
             justify-content: space-between;
+
+            &-li {
+                background-color: #FFFFFF;
+                width: 32px;
+                height: 32px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &:hover {
+                    background-color: #F16D7F;
+                    fill: #FFFFFF;
+                }
+            }
         }
 
         &-p {
