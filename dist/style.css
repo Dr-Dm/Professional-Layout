@@ -331,6 +331,7 @@
   background-color: #F16D7F;
   border: 1px solid #FF6A6A;
   color: #FFFFFF;
+  fill: #FFFFFF;
 }
 .catalog-button-basket {
   margin-right: 23px;
@@ -771,9 +772,11 @@
 .product-about {
   display: flex;
   flex-direction: column;
-  max-width: 1140px;
+  width: 1140px;
   align-items: center;
   margin: 0 auto;
+  transform: translate(0px, -65px);
+  background-color: #FFFFFF;
 }
 .product-about-woman {
   font-weight: 300;
@@ -782,6 +785,17 @@
   color: #F16D7F;
   text-transform: uppercase;
   margin-top: 65px;
+  position: relative;
+}
+.product-about-woman::after {
+  content: "";
+  display: block;
+  width: 63px;
+  height: 3px;
+  background-color: #EF5B70;
+  position: absolute;
+  margin-top: 12px;
+  left: 45px;
 }
 .product-about-info {
   font-weight: 300;
@@ -798,4 +812,6 @@
 }
 .product-margin {
   margin-top: 130px;
+  justify-content: space-between;
+  width: 400px;
 }

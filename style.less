@@ -391,6 +391,7 @@
             background-color: #F16D7F;
             border: 1px solid #FF6A6A;
             color: #FFFFFF;
+            fill: #FFFFFF;
 
         }
 
@@ -909,9 +910,11 @@
     &-about {
         display: flex;
         flex-direction: column;
-        max-width: 1140px;
+        width: 1140px;
         align-items: center;
         margin: 0 auto;
+        transform: translate(0px, -65px);
+        background-color: #FFFFFF;
 
         &-woman {
             font-weight: 300;
@@ -920,6 +923,18 @@
             color: #F16D7F;
             text-transform: uppercase;
             margin-top: 65px;
+            position: relative;
+
+            &::after {
+                content: "";
+                display: block;
+                width: 63px;
+                height: 3px;
+                background-color: #EF5B70;
+                position: absolute;
+                margin-top: 12px;
+                left: 45px;
+            }
         }
 
         &-info {
@@ -940,6 +955,8 @@
 
     &-margin {
         margin-top: 130px;
+        justify-content: space-between;
+        width: 400px;
     }
 }
 
