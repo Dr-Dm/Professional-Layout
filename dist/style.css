@@ -326,6 +326,7 @@
   margin: 49px auto 96px;
   fill: #F26376;
   align-items: center;
+  background-color: #FFFFFF;
 }
 .catalog-button:hover {
   background-color: #F16D7F;
@@ -756,6 +757,7 @@
   min-height: 777px;
   align-items: center;
   background-color: #F7F7F7;
+  border: 1px solid #EAEAEA;
 }
 .product-viev-btn {
   display: flex;
@@ -777,6 +779,7 @@
   margin: 0 auto;
   transform: translate(0px, -65px);
   background-color: #FFFFFF;
+  border: 1px solid #EAEAEA;
 }
 .product-about-woman {
   font-weight: 300;
@@ -814,4 +817,15 @@
   margin-top: 130px;
   justify-content: space-between;
   width: 400px;
+  position: relative;
+}
+.product-margin::before {
+  content: "";
+  display: block;
+  width: 641px;
+  height: 1px;
+  position: absolute;
+  background-color: #EAEAEA;
+  bottom: 85px;
+  left: -120px;
 }
