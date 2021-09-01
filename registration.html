@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxerious Fashion Catalog</title>
+    <link rel="stylesheet" href="dist/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="header-menu">
+                <div class="header-menu-logo-search">
+                    <div class="header-menu-logo-search-left">
+                        <a href="index.html" class="header-menu-logo-search-button">
+                            <img src="img/logo.svg" alt="logo">
+                        </a>
+                    </div>
+                    <div class="header-menu-logo-search-right">
+                        <form action="search" class="search-form header-menu-logo-search-button">
+                            <input class="search-form__input" id="search" type="search" required>
+                            <label for="search" class="search-form__label">
+                                <svg class="search-form__svg" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
+                                    <path
+                                        d="M23.762,22.681 L17.569,16.586 C19.190,14.825 20.187,12.494 20.187,9.929 C20.186,4.443 15.668,-0.002 10.093,-0.002 C4.519,-0.002 0.001,4.443 0.001,9.929 C0.001,15.416 4.519,19.862 10.093,19.862 C12.502,19.862 14.711,19.028 16.446,17.644 L22.663,23.763 C22.966,24.062 23.458,24.062 23.761,23.763 C24.065,23.464 24.065,22.979 23.762,22.681 ZM10.093,18.334 C5.377,18.334 1.553,14.572 1.553,9.929 C1.553,5.288 5.377,1.525 10.093,1.525 C14.810,1.525 18.633,5.288 18.633,9.929 C18.633,14.572 14.810,18.334 10.093,18.334 Z" />
+                                </svg>
+                            </label>
+                        </form>
+                    </div>
+                </div>
+                <div class="header-menu-right">
+                    <nav class="menu">
+                        <label class="menu-btn" for="menu-switch">
+                            <span></span>
+                        </label>
+                        <input id="menu-switch" type="checkbox">
+                        <ul class="menu-list">
+                            <a href="#" class="menu-list-close-btn"></a>
+                            <span class="menu-list-title">menu</span>
+                            <li class="menu-list-item">
+                                <a href="#">man</a>
+                                <ul class="menu-sublist">
+                                    <li class="menu-sublist-item">
+                                        <a href="#">Accessories</a>
+                                    </li>
+                                    <li class="menu-sublist-item">
+                                        <a href="#">Bags</a>
+                                    </li>
+                                    <li class="menu-sublist-item">
+                                        <a href="#">Denim</a>
+                                    </li>
+                                    <li class="menu-sublist-item">
+                                        <a href="#">T-Shirts</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-list-item">
+                                <a href="#">woman</a>
+                                <ul class="menu-sublist">
+                                    <li class="menu-sublist-item">
+                                        <a href="#">Accessories</a>
+                                    </li>
+                                    <li class="menu-sublist-item">
+                                        <a href="#">Jackets &amp;&nbsp;Coats</a>
+                                    </li>
+                                    <li class="menu-sublist-item">
+                                        <a href="#">Polos</a>
+                                    </li>
+                                    <li class="menu-sublist-item">
+                                        <a href="#">T-Shirts</a>
+                                    </li>
+                                    <li class="menu-sublist-item">
+                                        <a href="#">Shirts</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-list-item">
+                                <a href="#">kids</a>
+                                <ul class="menu-sublist">
+                                    <li class="menu-sublist-item">
+                                        <a href="#">Accessories</a>
+                                    </li>
+                                    <li class="menu-sublist-item">
+                                        <a href="#">Jackets &amp;&nbsp;Coats</a>
+                                    </li>
+                                    <li class="menu-sublist-item">
+                                        <a href="#">Polos</a>
+                                    </li>
+                                    <li class="menu-sublist-item">
+                                        <a href="#">T-Shirts</a>
+                                    </li>
+                                    <li class="menu-sublist-item">
+                                        <a href="#">Shirts</a>
+                                    </li>
+                                    <li class="menu-sublist-item">
+                                        <a href="#">Bags</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a href="" class="header-menu-right-button">
+                        <img src="img/contacts.svg" alt="contacts">
+                    </a>
+                    <a href="" class="header-menu-right-button">
+                        <img src="img/basket.svg" alt="basket">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+       <section class="reg">
+            <form action="" class="reg-form">
+                <input  type="text" class="reg-form-name" placeholder="Fist Name">
+                <input  type="text" class="reg-form-name" placeholder="Last Name">
+                <p class="reg-form-sex">
+                    <input name="sex" type="radio" value="Male">
+                    Male
+                </p>
+                <p class="reg-form-sex">
+                    <input name="sex" type="radio" value="Female">
+                    Female
+                </p>
+                
+                Login Details
+                <input type="text" class="reg-form-logde" placeholder="Email">
+                <input type="text" class="reg-form-logde" placeholder="Password">
+                <p class="reg-form-pwinf">
+                    Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters
+                </p>
+            </form>
+       </section>
+       <div class="reg-info">
+
+       </div>
+    </main>
+    <footer class="footer">
+        <section class="footer-top">
+            <div class="footer-top-review">
+                <div class="footer-top-review-bg">
+
+                </div>
+                <p class="footer-top-review-p">
+                    “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“
+                </p>
+            </div>
+            <div class="footer-top-form">
+                <h2 class="footer-top-form-h2">
+                    subscribe
+                </h2>
+                <h3 class="footer-top-form-h3">
+                    for our newletter and promotion
+                </h3>
+                <input class="footer-top-form-email" type="email" placeholder="Enter Your Email" required>
+                <input class="footer-top-form-btn" type="submit" value="Subscribe">
+            </div>
+        </section>
+        <section class="footer-bot">
+            <div class="footer-bot-center">
+                <p class="footer-bot-p">
+                    © 2021 Brand All Rights Reserved.
+                </p>
+                <ul class="footer-bot-socials">
+                    <li class="footer-bot-socials-li">
+                        <a href="facebook.com" class="footer-bot-socials-li-fb">
+                            <img src="img/facebook.svg" alt="facebook">
+                        </a>
+                    </li>
+                    <li class="footer-bot-socials-li">
+                        <a href="instagram.com" class="footer-bot-socials-li-ig">
+                            <img src="img/instagram.svg" alt="instagram">
+                        </a>
+                    </li>
+                    <li class="footer-bot-socials-li">
+                        <a href="pinterest.com" class="footer-bot-socials-li-pin">
+                            <img src="img/pinterest.svg" alt="pinterest">
+                        </a>
+                    </li>
+                    <li class="footer-bot-socials-li">
+                        <a href="twitter.com" class="footer-bot-socials-li-tw">
+                            <img src="img/twitter.svg" alt="twitter">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
