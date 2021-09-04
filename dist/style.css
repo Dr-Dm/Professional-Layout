@@ -28,6 +28,10 @@
 }
 .header-menu-right-button {
   margin-left: 33px;
+  text-decoration: none;
+}
+.header-menu-right-button-but {
+  transform: translate(0px, 8px);
 }
 .header-menu-ls {
   display: flex;
@@ -39,6 +43,16 @@
 }
 .header-menu-ls-button {
   margin-right: 41px;
+}
+.header-menu-circle {
+  transform: translate(-15px, -15px);
+}
+.header-menu-circle5 {
+  color: #FFFFFF;
+  display: block;
+  transform: translate(60px, -35px);
+  font-size: 12px;
+  line-height: 14px;
 }
 .top-nav-bg {
   min-height: 148px;
@@ -63,24 +77,26 @@
   display: flex;
   list-style-type: none;
 }
-.navigation-breadcrumb-men:before {
-  margin-left: 10px;
-  color: #636363;
-  content: "/\00a0";
-}
-.navigation-breadcrumb-active::before {
-  margin-left: 10px;
-  color: #636363;
-  content: "/\00a0";
-}
-.navigation-breadcrumb-index {
+.navigation-breadcrumb-li {
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
   color: #636363;
   text-transform: uppercase;
+  margin-left: 10px;
 }
-.navigation-breadcrumb-men {
+.navigation-breadcrumb-li::after {
+  margin-left: 10px;
+  color: #636363;
+  content: "/\00a0";
+}
+.navigation-breadcrumb-active {
+  margin-left: 10px;
+}
+.navigation-breadcrumb-active::after {
+  content: "";
+}
+.navigation-breadcrumb-index {
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;

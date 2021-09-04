@@ -31,6 +31,11 @@
             
             &-button {
                 margin-left: 33px;
+                text-decoration: none;
+
+                &-but {
+                    transform: translate(0px, 8px);
+                }
             }
         }
 
@@ -48,7 +53,17 @@
             margin-right: 41px;
         }
 
-        
+        &-circle {
+            transform: translate(-15px, -15px);
+        }
+
+        &-circle5 {
+            color: #FFFFFF;
+            display: block;
+            transform: translate(60px, -35px);
+            font-size: 12px;
+            line-height: 14px;
+        }
     }
 }
 
@@ -76,17 +91,29 @@
     &-breadcrumb {
         display: flex;
         list-style-type: none;
-
-        &-men:before {
-            margin-left: 10px;
+        
+        &-li {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 17px;
             color: #636363;
-            content: "/\00a0"
+            text-transform: uppercase;
+            margin-left: 10px;
+
+            &::after {
+                margin-left: 10px;
+                color: #636363;
+                content: "/\00a0"
+            }
+
         }
 
-        &-active::before {
+        &-active {
             margin-left: 10px;
-            color: #636363;
-            content: "/\00a0"
+
+            &::after {
+                content: "";
+            }
         }
 
         &-index {
@@ -99,11 +126,7 @@
         }
 
         &-men {
-            font-weight: 300;
-            font-size: 14px;
-            line-height: 17px;
-            color: #636363;
-            text-transform: uppercase;
+            
 
         }
 
