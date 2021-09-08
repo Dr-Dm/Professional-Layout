@@ -1369,6 +1369,9 @@
     font-size: 16px;
     line-height: 19px;
   }
+  .catalog-list-item-all {
+    margin: 17px auto;
+  }
 }
 @media (max-width: 426px) {
   .header-menu-right {
@@ -1432,6 +1435,9 @@
   }
   .catalog-button {
     margin: 40px auto 95px;
+  }
+  .catalog-list-item-all {
+    margin: 17px auto;
   }
   .footer-top-review-p {
     font-size: 18px;
