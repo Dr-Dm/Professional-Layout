@@ -1,8 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-}
-* {
   font-family: Lato;
   font-style: normal;
 }
@@ -100,9 +98,6 @@
 }
 .navigation-breadcrumb-active {
   margin-left: 10px;
-}
-.navigation-breadcrumb-active::after {
-  content: "";
 }
 .navigation-breadcrumb-index {
   font-weight: 300;
