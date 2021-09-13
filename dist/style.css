@@ -1166,11 +1166,10 @@
   margin-top: 22px;
 }
 .reg-info-ul {
-  list-style-type: none;
-  margin-top: 21px;
+  list-style-image: url(../img/regmark.svg);
+  margin: 21px 0 0 30px;
 }
 .reg-info-ul-li {
-  display: flex;
   margin-bottom: 16px;
 }
 .reg-info-ul-p {
