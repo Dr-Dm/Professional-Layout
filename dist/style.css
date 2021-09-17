@@ -263,34 +263,34 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.catalog-list-item-all {
+.catalog-list-item {
   max-width: 360px;
   position: relative;
   background: #F8F8F8;
 }
-.catalog-list-item-all:hover .catalog-list-item-all-foto {
+.catalog-list-item:hover .catalog-list-item-all-foto {
   filter: brightness(50%);
 }
-.catalog-list-item-all:hover .catalog-list-item-all-btn {
+.catalog-list-item:hover .catalog-list-item-all-btn {
   display: flex;
 }
-.catalog-list-item-all:hover .catalog-list-item-all-btn:hover {
+.catalog-list-item:hover .catalog-list-item-all-btn:hover {
   background-color: #ccc;
   color: #000;
   border: 1px solid #000;
 }
-.catalog-list-item-all:hover .catalog-list-item-all-btn:hover svg {
+.catalog-list-item:hover .catalog-list-item-all-btn:hover svg {
   fill: #000;
 }
-.catalog-list-item-all:hover .catalog-list-item-all-btn:active {
+.catalog-list-item:hover .catalog-list-item-all-btn:active {
   background-color: transparent;
   color: #fff;
   border: 1px solid #fff;
 }
-.catalog-list-item-all:hover .catalog-list-item-all-btn:active svg {
+.catalog-list-item:hover .catalog-list-item-all-btn:active svg {
   fill: #fff;
 }
-.catalog-list-item-all-btn {
+.catalog-list-item-btn {
   display: none;
   justify-content: center;
   align-items: center;
@@ -307,14 +307,14 @@
   left: 111px;
   cursor: pointer;
 }
-.catalog-list-item-all-btn svg {
+.catalog-list-item-btn svg {
   fill: #FFFFFF;
   margin: 0 11px 0 0;
 }
-.catalog-list-item-all-text {
+.catalog-list-item-text {
   padding: 0 18px 0 29px;
 }
-.catalog-list-item-all-text-h2 {
+.catalog-list-item-text-h2 {
   text-transform: uppercase;
   font-weight: normal;
   font-size: 13px;
@@ -322,7 +322,7 @@
   color: #000000;
   margin-top: 25px;
 }
-.catalog-list-item-all-text-p1 {
+.catalog-list-item-text-p1 {
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -330,7 +330,7 @@
   color: #5D5D5D;
   margin-top: 13px;
 }
-.catalog-list-item-all-text-p {
+.catalog-list-item-text-p {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
