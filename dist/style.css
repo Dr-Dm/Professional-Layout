@@ -305,6 +305,7 @@
   position: absolute;
   top: 188px;
   left: 111px;
+  cursor: pointer;
 }
 .catalog-list-item-all-btn svg {
   fill: #FFFFFF;
@@ -349,6 +350,7 @@
   fill: #F26376;
   align-items: center;
   background-color: #FFFFFF;
+  cursor: pointer;
 }
 .catalog-button:hover {
   background-color: #F16D7F;
@@ -484,6 +486,9 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+.footer-top-form-all {
+  display: flex;
+}
 .footer-top-form-h2 {
   text-transform: uppercase;
   text-align: center;
@@ -524,6 +529,7 @@
   border-radius: 0 20px 20px 0;
   border: none;
   margin-top: 32px;
+  cursor: pointer;
 }
 .footer-bot {
   height: 79px;
@@ -551,6 +557,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .footer-bot-socials-li:hover {
   background-color: #F16D7F;
@@ -790,6 +797,7 @@
   font-size: 14px;
   line-height: 17px;
   color: #6F6E6E;
+  cursor: pointer;
 }
 .catalog-nav-li-svg {
   margin-left: 10px;
@@ -817,6 +825,7 @@
   width: 47px;
   height: 47px;
   background: rgba(121, 49, 49, 0.15);
+  cursor: pointer;
 }
 .product-viev-btn-svg {
   margin: auto;
@@ -963,6 +972,7 @@
   border: 1px solid #A4A4A4;
   padding: 16px 40px;
   background: #FFFFFF;
+  cursor: pointer;
 }
 .cart-all-close {
   background-color: #FFFFFF;
@@ -1027,6 +1037,7 @@
   height: 34px;
   margin-top: 23px;
   border: 1px solid #A4A4A4;
+  cursor: pointer;
 }
 .cart-sum {
   display: flex;
@@ -1079,6 +1090,7 @@
   color: #FFFFFF;
   border: none;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .cart-sum-btn::before {
   content: "";
@@ -1146,6 +1158,7 @@
   background: #F16D7F;
   text-transform: uppercase;
   border: none;
+  cursor: pointer;
 }
 .reg-form-btn-svg {
   margin-left: 20px;
