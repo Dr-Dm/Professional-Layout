@@ -268,26 +268,26 @@
   position: relative;
   background: #F8F8F8;
 }
-.catalog-list-item:hover .catalog-list-item-all-foto {
+.catalog-list-item:hover .catalog-list-item-foto {
   filter: brightness(50%);
 }
-.catalog-list-item:hover .catalog-list-item-all-btn {
+.catalog-list-item:hover .catalog-list-item-btn {
   display: flex;
 }
-.catalog-list-item:hover .catalog-list-item-all-btn:hover {
+.catalog-list-item:hover .catalog-list-item-btn:hover {
   background-color: #ccc;
   color: #000;
   border: 1px solid #000;
 }
-.catalog-list-item:hover .catalog-list-item-all-btn:hover svg {
+.catalog-list-item:hover .catalog-list-item-btn:hover svg {
   fill: #000;
 }
-.catalog-list-item:hover .catalog-list-item-all-btn:active {
+.catalog-list-item:hover .catalog-list-item-btn:active {
   background-color: transparent;
   color: #fff;
   border: 1px solid #fff;
 }
-.catalog-list-item:hover .catalog-list-item-all-btn:active svg {
+.catalog-list-item:hover .catalog-list-item-btn:active svg {
   fill: #fff;
 }
 .catalog-list-item-btn {
